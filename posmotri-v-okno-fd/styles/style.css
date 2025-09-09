@@ -11,6 +11,7 @@ html {
 .page {
   display: flex;
   justify-content: center;
+  align-items: center;
   inline-size: 1200px;
   block-size: 100%;
   margin: auto;
@@ -54,10 +55,11 @@ ol {
 }
 
 .content {
-  display: flex;
-  align-items: flex-end;
+  display: grid;
+  grid-template-areas: 'result details';
+  grid-template-columns: 711px 399px;
+  place-items: end;
   gap: 30px;
-  padding: 133px 30px;
 }
 
 .content__details {
@@ -78,4 +80,46 @@ ol {
 
 .title {
   margin-bottom: 26px;
+}
+
+.result__video-container {
+  width: 711px;
+  height: 386px;
+  margin-bottom: 16px;
+}
+
+.result__video {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.content__list-container {
+  display: grid;
+  gap: 30px;
+}
+
+.content__list {
+  display: grid;
+  gap: 30px;
+}
+
+.content__video-card {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.content__video-card-thumbnail {
+  width: 194px;
+  height: 103px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.content__video-card-description-container {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  justify-content: space-between;
 }
