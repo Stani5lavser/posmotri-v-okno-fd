@@ -178,3 +178,16 @@ ol {
 .content__video-card-description {
   line-height: 1.62;
 }
+
+.search-form__checkbox-list {
+  display: flex;
+  gap: 39px;
+}
+
+.search-form__fieldset {
+  border: none;
+}
+
+.search-form__label {
+  display: flex;
+}
