@@ -68,7 +68,6 @@ ol {
   grid-template-areas: 'result details';
   grid-template-columns: 711px 399px;
   inline-size: 1140px;
-  height: 534px;
   place-items: end;
   gap: 30px;
 }
