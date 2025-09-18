@@ -154,7 +154,7 @@ ol {
 }
 
 .content__card-link_current {
-  background-color: inherit;
+  background-color: #545050;
 }
 
 .content__card-link:hover {
