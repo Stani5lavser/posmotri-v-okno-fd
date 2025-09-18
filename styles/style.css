@@ -74,7 +74,6 @@ ol {
 
 .result {
   grid-area: result;
-  height: 456px;
   display: flex;
   flex-direction: column;
   gap: 16px;
